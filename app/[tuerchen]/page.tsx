@@ -117,7 +117,7 @@ const Tuerchen = ({ params }: { params: { tuerchen: string } }) => {
           >
             {"Noch "}
             {moment(params.tuerchen, "DD-MM-YYYY").to(currentMoment, true)}{" "}
-            {"bis Weihnachten"}
+            {"bis es los geht"}
           </motion.span>
         )}
       </motion.main>
