@@ -33,7 +33,7 @@ const Tuerchen = ({ params }: { params: { tuerchen: string } }) => {
   return (
     <AnimatePresence>
       <motion.main
-        className="flex min-h-screen flex-col items-center justify-between p-3.5"
+        className="flex min-h-screen flex-col items-center justify-between p-3.5 gap-3.5"
         initial="hidden"
         animate="visible"
         variants={fadeInVariants}

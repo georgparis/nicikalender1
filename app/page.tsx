@@ -30,14 +30,14 @@ const Home = () => {
   return (
     <AnimatePresence>
       <motion.main
-        className="flex min-h-screen flex-col items-center justify-between p-3.5"
+        className="flex min-h-screen flex-col items-center justify-between p-3.5 gap-3.5"
         initial="hidden"
         animate="visible"
         variants={fadeInVariants}
         transition={{ duration: 2 }}
       >
         <motion.div
-          className=" flex flex-row justify-center gap-3.5 bg-white bg-opacity-40 p-3.5 rounded-md"
+          className=" w-auto flex flex-row justify-center gap-3.5 bg-white bg-opacity-40 p-3.5 rounded-md"
           variants={fadeInVariants}
         >
           <span className="font-bold text-2xl">Nicis Advents Kalender</span>
